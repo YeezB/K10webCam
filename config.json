@@ -1,0 +1,33 @@
+{
+    "name": {
+        "zh-cn": "K10webcam",
+        "en": "K10webcam"
+    },
+    "description": {
+        "zh-cn": "行空板K10网络摄像头库",
+        "en": "行空板K10网络摄像头库"
+    },
+    "author": "drobot_yeezb",
+    "email": "zibin.ye@dfrobot.com",
+    "license": "MIT",
+    "isBoard": false,
+    "color": "#aa00ff",
+    "id": "yeezb",
+    "platform": [
+        "win",
+        "mac",
+        "web",
+        "linux"
+    ],
+    "version": "0.0.1",
+    "asset": {
+        "arduinoC": {
+            "dir": "arduinoC/",
+            "main": "main.ts",
+            "dependencies": {},
+            "board": [
+                "esp32s3bit"
+            ]
+        }
+    }
+}
