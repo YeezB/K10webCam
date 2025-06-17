@@ -2,11 +2,11 @@
     "k": {
         "menu": [
             [
-                "开启",
+                "ON",
                 "enable"
             ],
             [
-                "关闭",
+                "OFF",
                 "disable"
             ]
         ]

@@ -1,1 +1,5 @@
-{}
+{
+    "yeezb.myBlock0|block": "网络摄像头[k]",
+    "yeezb.k.ON|menu": "开启",
+    "yeezb.k.OFF|menu": "关闭"
+}

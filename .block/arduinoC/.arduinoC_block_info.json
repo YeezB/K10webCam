@@ -1,1 +1,18 @@
-[{"id": 2, "name": "\u7f51\u7edc\u6444\u50cf\u5934[k]", "type": "command", "code": "\n    //% block=\"\u7f51\u7edc\u6444\u50cf\u5934[k]\" blockType=\"command\"\n    //% k.shadow=\"dropdown\" k.options=\"k\" \n    export function myBlock0(parameter: any, block: any) {\n    let k= parameter.k.code\n    Generator.addInclude(\"myBlock474\",`#include \"unihiker_k10_webcam.h\"`)\n    Generator.addObject(\"myBlock8462\",`unihiker_k10_webcam webcam;`,\"\")\n    Generator.addCode(`webcam.${k}Webcam();`)\n            }", "param_types": ["dropdown"], "default_values": ["\u5f00\u542f:enable,\u5173\u95ed:disable"], "import_code": "#include \"unihiker_k10_webcam.h\"", "init_code": "unihiker_k10_webcam webcam;", "add_code": "webcam.${k}Webcam();", "code_setup": ""}]
+[
+    {
+        "id": 2,
+        "name": "网络摄像头[k]",
+        "type": "command",
+        "code": "\n    //% block=\"网络摄像头[k]\" blockType=\"command\"\n    //% k.shadow=\"dropdown\" k.options=\"k\" \n    export function myBlock0(parameter: any, block: any) {\n    let k= parameter.k.code\n    Generator.addInclude(\"myBlock474\",`#include \"unihiker_k10_webcam.h\"`)\n    Generator.addObject(\"myBlock8462\",`unihiker_k10_webcam webcam;`,\"\")\n    Generator.addCode(`webcam.${k}Webcam();`)\n            }",
+        "param_types": [
+            "dropdown"
+        ],
+        "default_values": [
+            "开启:enable,关闭:disable"
+        ],
+        "import_code": "#include \"unihiker_k10_webcam.h\"",
+        "init_code": "unihiker_k10_webcam webcam;",
+        "add_code": "webcam.${k}Webcam();",
+        "code_setup": ""
+    }
+]

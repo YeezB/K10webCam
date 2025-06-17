@@ -5,7 +5,7 @@
     },
     "description": {
         "zh-cn": "行空板K10网络摄像头库",
-        "en": "行空板K10网络摄像头库"
+        "en": "UNIHIKER K10 webcam library"
     },
     "author": "drobot_yeezb",
     "email": "zibin.ye@dfrobot.com",
@@ -19,7 +19,7 @@
         "web",
         "linux"
     ],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "asset": {
         "arduinoC": {
             "dir": "arduinoC/",
