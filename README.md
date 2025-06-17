@@ -1,6 +1,6 @@
 # K10webcam
-* [中文](./README_CN.md)
-Airline Board K10 Webcam Library, after connecting to WiFi and turning on the webcam, other devices in the network can view the camera screen by connecting to the IP/stream of the Airline Board K10.
+* [中文](./README_CN.md)<br/>
+UNIHIKER K10 Webcam Library, after connecting to WiFi and turning on the webcam, other devices in the network can view the camera screen by connecting to the IP/stream of the Airline Board K10.
 It needs to be used with WiFi library.
 
 # Blocks
@@ -21,8 +21,8 @@ Input the IP address/stream to view the camera's shooting screen in real time. A
 |arduinonano||||||
 |leonardo||||||
 |mega2560||||||
-|行空板K10||√||||
+|UNIHIKER K10||√||||
 
 # Update log
-V0.0.1 Complete basic function
+V0.0.1 Complete basic function<br/>
 V0.0.2 Add English
