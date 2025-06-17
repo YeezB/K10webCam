@@ -1,18 +1,19 @@
 # K10webcam
-行空板K10网络摄像头库，连接WiFi并开启网络摄像头后，网络内其他设备可通过连接行空板K10的IP/stream查看摄像头画面。
-需要配合WiFi库使用。
+* [中文](./README_CN.md)
+Airline Board K10 Webcam Library, after connecting to WiFi and turning on the webcam, other devices in the network can view the camera screen by connecting to the IP/stream of the Airline Board K10.
+It needs to be used with WiFi library.
 
-# 积木
-![](./arduinoC/_images/block1.png)
-# 程序实例
-上传程序后打开串口可看到K10的IP地址
-![](./arduinoC/_images/example1.png)
+# Blocks
+![](./arduinoC/_images/block2.png)
+# Example
+After uploading the program, open the serial port to see the IP address of the K10.
+![](./arduinoC/_images/example3.png)
 <br/>
-输入IP地址/stream可实时查看摄像头拍摄画面
+Input the IP address/stream to view the camera's shooting screen in real time. After uploading the program, you can open the serial port to see the K10's IP address.
 ![](./arduinoC/_images/example2.png)
 
-# 支持列表
-|主板型号|实时模式|ArduinoC|MicroPython|python|备注|
+# Compatible list
+|Board|Online mode|ArduinoC|MicroPython|python|Note|
 |-----|-----|-----|-----|:-----:|-----|
 |uno||||||
 |micro:bit||||||
@@ -22,5 +23,6 @@
 |mega2560||||||
 |行空板K10||√||||
 
-# 更新日志
-V0.0.1 基础功能完成
+# Update log
+V0.0.1 Complete basic function
+V0.0.2 Add English
